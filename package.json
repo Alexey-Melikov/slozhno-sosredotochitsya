@@ -1,0 +1,39 @@
+{
+  "name": "slozhno-sosredotochitsya",
+  "version": "0.0.1",
+  "description": "Project_02",
+  "main": "index.js",
+  "scripts": {
+    "build": "rd /s /q build && webpack",
+    "macBuild": "rm -rf dist && webpack",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexey-Melikov/slozhno-sosredotochitsya"
+  },
+  "author": "Alexey Melikov",
+  "license": "ISC",
+  "homepage": "https://github.com/Alexey-Melikov/slozhno-sosredotochitsya",
+  "devDependencies": {
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "cssnano": "^5.1.14",
+    "gh-pages": "^5.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "postcss-loader": "^7.0.2",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "core-js": "^3.37.1"
+  }
+}
