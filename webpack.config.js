@@ -10,7 +10,6 @@ module.exports = {
   output: {
     filename: "[name].[contenthash].js",
     path: path.resolve(__dirname, "build"),
-    //clean: true, // очищаем папку билд от старого кода (тперь мы подключили плагин: CleanWebpackPlugin)
   },
   module: {
     rules: [
