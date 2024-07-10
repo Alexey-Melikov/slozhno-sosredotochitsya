@@ -4,24 +4,10 @@
   --accent-color: #db00ff;
   --title-color: #ff0070;
   --title-bg-color: #ff0070;
-  --title-paradraph-color: #000028;
-  --bg-img: url("../images/cover-image-dark.png");
   --link-shadow-color: #ff0070;
   --btn-activ-focus-border-color: #ff0070;
+  --title-paradraph-color: #000028;
+  --bg-img: url("../images/cover-image-dark.png");
   --btn-hover-border-color: rgba(255, 0, 112, 0.4);
 
-  /* .header {
-    background-image: url("../images/cover-image-dark.png");
-  }
-  .header__theme-menu {
-    position: relative;
-  }
-
-  .header__theme-menu-button {
-    color: var(--accent-color);
-  }
-
-  .header__theme-menu-button_active {
-    border: 1px solid var(--accent-color);
-  } */
 }
